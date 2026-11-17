@@ -1,0 +1,45 @@
+#box {
+    height: 300px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#funcs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.funcs {
+    height: 250px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bc, .color {
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.font {
+    height: 50px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.head {
+    width: 100%;
+}
+
